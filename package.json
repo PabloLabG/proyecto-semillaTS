@@ -11,6 +11,7 @@
     "start:prod": "webpack serve --config webpack.prod.js",
     "build:dev": "npm run type-check && webpack --config webpack.dev.js",
     "build:prod": "npm run type-check && webpack --config webpack.prod.js",
+    "build:perf": "webpack serve --config webpack.perf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
